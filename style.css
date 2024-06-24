@@ -1,0 +1,100 @@
+body {
+    font-family: 'Lora', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 2.5em;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 10px;
+    color: #1abc9c;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    color: #3498db;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #e74c3c;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+}
+
+.contact-info, .skills, .accomplishments, .certifications, .projects, .languages {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.contact-info p, .skills ul, .accomplishments ul, .certifications ul, .projects ul, .languages ul {
+    margin: 0;
+}
+
+article {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.addendum-section {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.addendum-section h2 {
+    color: #333;
+}
+
+.addendum-section p {
+    font-size: 1em;
+}
+footer{
+    background-color: #0066cc;
+    color: #ecf0f1;
+}
